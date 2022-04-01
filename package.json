@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/assert-is-typed-array-like",
+  "version": "0.0.0",
+  "description": "Test if a value is typed-array-like.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/assert-is-typed-array-like.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdassert",
+    "assertion",
+    "assert",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "typed",
+    "array",
+    "typed-array-like",
+    "like",
+    "is",
+    "istypedarraylike",
+    "length",
+    "duck type",
+    "duck",
+    "type",
+    "check",
+    "validate",
+    "valid",
+    "isvalid",
+    "test"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
