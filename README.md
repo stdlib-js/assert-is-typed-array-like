@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@deno/mod.js';
+import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.1-deno/mod.js';
 ```
 
 #### isTypedArrayLike( value )
@@ -78,7 +78,7 @@ bool = isTypedArrayLike({
 
 ```javascript
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@deno/mod.js';
-import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@deno/mod.js';
+import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.1-deno/mod.js';
 
 var bool;
 var arr;
