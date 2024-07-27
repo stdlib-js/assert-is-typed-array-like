@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isTypedArrayLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-typed-array-like/tags). For example,
+
+```javascript
 isTypedArrayLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.2-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isTypedArrayLike = require( 'path/to/vendor/umd/assert-is-typed-array-like/i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -105,7 +110,7 @@ bool = isTypedArrayLike({
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
