@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@esm/index.mjs';
+import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.2-esm/index.mjs';
 ```
 
 #### isTypedArrayLike( value )
@@ -83,7 +83,7 @@ bool = isTypedArrayLike({
 <script type="module">
 
 import Int8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@esm/index.mjs';
-import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@esm/index.mjs';
+import isTypedArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array-like@v0.2.2-esm/index.mjs';
 
 var bool;
 var arr;
