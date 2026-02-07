@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-typed-array-like",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test if a value is typed-array-like.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/constants-array-max-typed-array-length": "^0.2.2"
+    "@stdlib/constants-array-max-typed-array-length": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.2",
